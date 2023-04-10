@@ -9,6 +9,7 @@ const app = express();
 app.use(cors({ origin: '*' }))
 const port = process.env.PORT;
 app.use(express.json());
+app.use(express.static('public'));
 app.use('/api', APIRoutes);
 
 app.get('/', async (req: Request, res: Response) => {
