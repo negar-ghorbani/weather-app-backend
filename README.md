@@ -1,13 +1,6 @@
 # weather-app-backend
 > This app is the backend part of the weather app which uses two external APIs for location autocomplete and weather information.
 
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Screenshots](#screenshots)
-* [Setup](#setup)
-* [Room for Improvement](#room-for-improvement)
-<!-- * [License](#license) -->
 
 
 ## General Information
