@@ -17,7 +17,7 @@ Read more: [geoapify documentation](https://apidocs.geoapify.com/docs/geocoding/
 
 
 The response is a json like the following example
-![Example screenshot](./img//autocomplete.png
+![Example screenshot](./img//autocomplete.png)
 
 
 - For the Weather Forecast API, Open-Meteo was used. API can be utilized by selecting the location and weather variables.
