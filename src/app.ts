@@ -11,6 +11,10 @@ const port = process.env.PORT;
 app.use(express.json());
 app.use('/api', APIRoutes);
 
+app.get('/', async (req: Request, res: Response) => {
+    res.json({ status: "Healthy!" }).end();
+});
+
 app.listen(port, () => {
     console.log(`[server]: Server is running at http://localhost:${port}`);
 });

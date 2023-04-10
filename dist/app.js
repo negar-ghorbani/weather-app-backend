@@ -13,6 +13,9 @@ app.use((0, cors_1.default)({ origin: '*' }));
 const port = process.env.PORT;
 app.use(express_1.default.json());
 app.use('/api', apis_1.default);
+app.get('/', async (req, res) => {
+    res.json({ status: "Healthy!" }).end();
+});
 app.listen(port, () => {
     console.log(`[server]: Server is running at http://localhost:${port}`);
 });
