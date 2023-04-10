@@ -5,7 +5,7 @@
 
 ## General Information
 - Geoapify API provided location autocomplete. Geoapify offers a Geocoding REST API that searches addresses all around the world. The REST API operates on the HTTP GET protocol and produces JSON or XML replies. The API is cross-platform and works with the majority of programming languages. An API key is required to utilize the API.
-- 
+
 Read more: [geoapify documentation](https://apidocs.geoapify.com/docs/geocoding/forward-geocoding/#about)
 
 
